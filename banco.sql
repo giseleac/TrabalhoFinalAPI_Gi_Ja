@@ -103,3 +103,32 @@ VALUES
 (2, 2, '2026-06-15', '2026-06-29', '2026-06-28', 'DEVOLVIDO'),
 
 (3, 3, '2026-06-01', '2026-06-15', NULL, 'ATRASADO');
+
+
+INSERT INTO autores (nome)
+VALUES
+('Stephen King'),
+('Suzanne Collins'),
+('John Green'),
+('Frank Herbert'),
+('Walter Isaacson'),
+('Robert C. Martin'),
+('Antoine de Saint-Exupéry'),
+('Machado de Assis'), 
+('J. K. Rowling'), 
+('Dan Brown');
+
+
+INSERT INTO livros
+(titulo, id_autor, editora, ano_publicacao, quantidade, id_categoria)
+VALUES
+('Dom Casmurro', 1, 'Nova Fronteira', 1899, 5, 1),
+('Harry Potter e a Pedra Filosofal', 2, 'Rocco', 1997, 3, 6),
+('O Código Da Vinci', 3, 'Arqueiro', 2003, 2, 4),
+('It - A Coisa', 4, 'Suma', 1986, 4, 5),
+('Jogos Vorazes', 5, 'Rocco', 2008, 6, 2),
+('A Culpa é das Estrelas', 6, 'Intrínseca', 2012, 5, 3),
+('Duna', 7, 'Aleph', 1965, 3, 7),
+('Steve Jobs', 8, 'Companhia das Letras', 2011, 2, 8),
+('Código Limpo', 9, 'Alta Books', 2008, 4, 9),
+('O Pequeno Príncipe', 10, 'Agir', 1943, 7, 10);
