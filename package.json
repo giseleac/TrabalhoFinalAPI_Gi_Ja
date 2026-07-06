@@ -1,0 +1,32 @@
+{
+  "name": "trabalhofinalapi_gi_ja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giseleac/TrabalhoFinalAPI_Gi_Ja.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/giseleac/TrabalhoFinalAPI_Gi_Ja/issues"
+  },
+  "homepage": "https://github.com/giseleac/TrabalhoFinalAPI_Gi_Ja#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "knex": "^3.3.0",
+    "mysql2": "^3.22.5"
+  }
+}

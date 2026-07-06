@@ -1,0 +1,113 @@
+Livros para adicionar, atualizar e excluir:
+
+Para adicionar(POST) - O hobbit:
+
+{
+    "titulo": "O Hobbit",
+    "editora": "HarperCollins",
+    "ano_publicacao": 1937,
+    "quantidade": 4,
+    "id_categoria": 6,
+    "id_autor": 2
+}
+
+
+Para atualizar(PUT) - O hobbit: Edição especial :
+
+{
+    "titulo": "O Hobbit - Edição Especial",
+    "editora": "HarperCollins",
+    "ano_publicacao": 2024,
+    "quantidade": 6,
+    "id_categoria": 6,
+    "id_autor": 2
+}
+
+
+Para adicionar(POST)- O senhor dos aneis:
+
+{
+    "titulo": "O Senhor dos Anéis",
+    "editora": "Martins Fontes",
+    "ano_publicacao": 1954,
+    "quantidade": 5,
+    "id_categoria": 6,
+    "id_autor": 2
+}
+
+Para atualizar(PUT)- O senhor dos aneis volume único:
+
+{
+    "titulo": "O Senhor dos Anéis - Volume Único",
+    "editora": "HarperCollins",
+    "ano_publicacao": 2023,
+    "quantidade": 8,
+    "id_categoria": 6,
+    "id_autor": 2
+}
+
+Para adicionar(POST)- 1984:
+
+{
+    "titulo": "1984",
+    "editora": "Companhia das Letras",
+    "ano_publicacao": 1949,
+    "quantidade": 3,
+    "id_categoria": 7,
+    "id_autor": 5
+}
+
+Para atualizar(PUT)- 1984 Nova Edição:
+
+{
+    "titulo": "1984 - Nova Edição",
+    "editora": "Companhia das Letras",
+    "ano_publicacao": 2022,
+    "quantidade": 7,
+    "id_categoria": 7,
+    "id_autor": 5
+}
+
+Para Adicionar(POST)- A Revolução dos Bichos:
+
+{
+    "titulo": "A Revolução dos Bichos",
+    "editora": "Companhia das Letras",
+    "ano_publicacao": 1945,
+    "quantidade": 4,
+    "id_categoria": 3,
+    "id_autor": 5
+}
+
+Para atualizar(PUT)- A Revolução dos bichos Edição comentada:
+
+{
+    "titulo": "A Revolução dos Bichos - Edição Comentada",
+    "editora": "Companhia das Letras",
+    "ano_publicacao": 2021,
+    "quantidade": 5,
+    "id_categoria": 3,
+    "id_autor": 5
+}
+
+Para adicionar(POST)- Inteligência Artificial
+
+{
+    "titulo": "Inteligência Artificial",
+    "editora": "Novatec",
+    "ano_publicacao": 2024,
+    "quantidade": 6,
+    "id_categoria": 9,
+    "id_autor": 9
+}
+
+Para atualizar(PUT)- Inteligência Artificial Aplicada
+{
+    "titulo": "Inteligência Artificial Aplicada",
+    "editora": "Novatec",
+    "ano_publicacao": 2026,
+    "quantidade": 8,
+    "id_categoria": 9,
+    "id_autor": 9
+}
+
