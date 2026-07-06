@@ -111,3 +111,12 @@ Para atualizar(PUT)- Inteligência Artificial Aplicada
     "id_autor": 9
 }
 
+Pedro Henrique: senha = 123456
+
+Janina: senha = janina123
+
+Gisele: senha = gisele123
+
+Marcelo: senha = marcelo123
+
+Authorization     Bearer ESPAÇO token

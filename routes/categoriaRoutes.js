@@ -3,15 +3,16 @@ const express = require("express");
 const router = express.Router();
 
 const categoriaController = require("../controllers/categoriaController");
+const verificarToken = require("../middlewares/auth");
 
-router.get("/", categoriaController.listar);
+router.get("/", verificarToken, categoriaController.listar);
 
-router.get("/:id", categoriaController.buscarPorId);
+router.get("/:id", verificarToken, categoriaController.buscarPorId);
 
-router.post("/", categoriaController.cadastrar);
+router.post("/", verificarToken, categoriaController.cadastrar);
 
-router.put("/:id", categoriaController.atualizar);
+router.put("/:id", verificarToken, categoriaController.atualizar);
 
-router.delete("/:id", categoriaController.excluir);
+router.delete("/:id", verificarToken, categoriaController.excluir);
 
 module.exports = router;

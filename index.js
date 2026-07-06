@@ -14,6 +14,8 @@ const usuarioRoutes = require("./routes/usuarioRoutes");
 
 const emprestimoRoutes = require("./routes/emprestimoRoutes");
 
+const authRoutes = require("./routes/authRoutes");
+
 app.use("/api/livros", livroRoutes);
 
 app.use("/api/categorias", categoriaRoutes);
@@ -22,6 +24,7 @@ app.use("/api/usuarios", usuarioRoutes);
 
 app.use("/api/emprestimos", emprestimoRoutes);
 
+app.use("/api", authRoutes);
 
 app.get("/", (req, res) => {
 
