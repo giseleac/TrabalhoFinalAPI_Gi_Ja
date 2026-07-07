@@ -120,3 +120,45 @@ Gisele: senha = gisele123
 Marcelo: senha = marcelo123
 
 Authorization     Bearer ESPAÇO token
+
+{
+  "nome": "João Pereira",
+  "email": "joao@email.com",
+  "senha": "joao123"
+}
+
+
+{
+  "nome": "Maria Oliveira",
+  "email": "maria@email.com",
+  "senha": "maria123"
+}
+
+{
+  "nome": "Carlos Souza",
+  "email": "carlos@email.com",
+  "senha": "carlos123"
+}
+
+EMPRESTIMOS:
+
+{
+  "id_usuario": 1,
+  "id_livro": 2,
+  "data_emprestimo": "2026-07-07",
+  "data_devolucao": "2026-07-14"
+}
+
+{
+  "id_usuario": 2,
+  "id_livro": 5,
+  "data_emprestimo": "2026-07-07",
+  "data_devolucao": "2026-07-21"
+}
+
+{
+  "id_usuario": 3,
+  "id_livro": 1,
+  "data_emprestimo": "2026-07-08",
+  "data_devolucao": "2026-07-15"
+}
