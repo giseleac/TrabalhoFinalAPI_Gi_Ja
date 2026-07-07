@@ -1,220 +1,194 @@
-*{
+* {
 
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Segoe UI, sans-serif;
-
-}
-
-body{
-
-background:#edf2f7;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-height:100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Segoe UI, sans-serif;
 
 }
 
-.container-login{
+body {
 
-width:100%;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
+    background: #edf2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 
 }
 
-.card-login{
+.container-login {
 
-width:420px;
-
-background:white;
-
-padding:40px;
-
-border-radius:15px;
-
-box-shadow:0 10px 30px rgba(0,0,0,.2);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.card-login h1{
+.card-login {
 
-text-align:center;
-
-color:#0d47a1;
-
-margin-bottom:10px;
-
-}
-
-.card-login p{
-
-text-align:center;
-
-margin-bottom:30px;
-
-color:#555;
+    width: 420px;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
 
 }
 
-label{
+.card-login h1 {
 
-font-weight:bold;
-
-display:block;
-
-margin-top:15px;
-
-margin-bottom:8px;
+    text-align: center;
+    color: #0d47a1;
+    margin-bottom: 10px;
 
 }
 
-input{
+.card-login p {
 
-width:100%;
-
-padding:12px;
-
-border-radius:8px;
-
-border:1px solid #CCC;
-
-font-size:15px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #555;
 
 }
 
-button{
+label {
 
-margin-top:25px;
-
-width:100%;
-
-padding:14px;
-
-background:#1565c0;
-
-color:white;
-
-border:none;
-
-border-radius:8px;
-
-font-size:18px;
-
-cursor:pointer;
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 8px;
 
 }
 
-button:hover{
+input {
 
-background:#0d47a1;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #CCC;
+    font-size: 15px;
+    outline: none;
 
 }
 
-#mensagem{
+input:focus {
 
-margin-top:20px;
+    border-color: #1565c0;
 
-text-align:center;
+}
 
-font-weight:bold;
+button {
 
-color:red;
+    margin-top: 20px;
+    width: 100%;
+    padding: 14px;
+    background: #1565c0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+button:hover {
+
+    background: #0d47a1;
+
+}
+
+#googleLogin {
+
+    background: #ffffff;
+    color: #444;
+    border: 1px solid #ccc;
+
+}
+
+#googleLogin:hover {
+
+    background: #f3f3f3;
+
+}
+
+#mensagem {
+
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: red;
 
 }
 
 /* Dashboard */
 
-.dashboard{
+.dashboard {
 
-    width:90%;
-
-    margin:auto;
-
-    padding:40px;
+    width: 90%;
+    margin: auto;
+    padding: 40px;
 
 }
 
-header{
+header {
 
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-    margin-bottom:40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
 
 }
 
-header h1{
+header h1 {
 
-    color:#1565c0;
-
-}
-
-header button{
-
-    width:150px;
+    color: #1565c0;
 
 }
 
-.cards{
+header button {
 
-    display:grid;
-
-    grid-template-columns:repeat(2,1fr);
-
-    gap:30px;
+    width: 150px;
 
 }
 
-.card{
+.cards {
 
-    background:white;
-
-    border-radius:15px;
-
-    padding:40px;
-
-    text-align:center;
-
-    box-shadow:0 8px 20px rgba(0,0,0,.2);
-
-    cursor:pointer;
-
-    transition:.3s;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
 
 }
 
-.card:hover{
+.card {
 
-    transform:scale(1.05);
-
-}
-
-.card h3{
-
-    margin-top:15px;
-
-    color:#1565c0;
+    background: white;
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,.2);
+    cursor: pointer;
+    transition: .3s;
 
 }
 
-.card p{
+.card:hover {
 
-    margin-top:10px;
+    transform: scale(1.05);
 
-    color:#666;
+}
+
+.card h3 {
+
+    margin-top: 15px;
+    color: #1565c0;
+
+}
+
+.card p {
+
+    margin-top: 10px;
+    color: #666;
 
 }
