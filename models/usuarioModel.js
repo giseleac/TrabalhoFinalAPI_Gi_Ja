@@ -14,6 +14,14 @@ async function buscarPorId(id) {
 
 }
 
+async function buscarPorEmail(email) {
+
+    return await conn("usuarios")
+        .where("email", email)
+        .first();
+
+}
+
 async function cadastrar(dados) {
 
     return await conn("usuarios")
@@ -40,6 +48,7 @@ async function excluir(id) {
 module.exports = {
     listar,
     buscarPorId,
+    buscarPorEmail,
     cadastrar,
     atualizar,
     excluir

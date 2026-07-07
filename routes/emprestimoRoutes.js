@@ -3,15 +3,15 @@ const express = require("express");
 const router = express.Router();
 
 const emprestimoController = require("../controllers/emprestimoController");
+const verificarToken = require("../middlewares/auth");
 
-router.get("/", emprestimoController.listar);
+router.get("/", verificarToken, emprestimoController.listar);
 
-router.get("/:id", emprestimoController.buscarPorId);
+router.get("/:id", verificarToken, emprestimoController.buscarPorId);
 
-router.post("/", emprestimoController.cadastrar);
+router.post("/", verificarToken, emprestimoController.cadastrar);
 
-router.put("/:id", emprestimoController.atualizar);
+router.put("/:id", verificarToken, emprestimoController.atualizar);
 
-router.delete("/:id", emprestimoController.excluir);
-
+router.delete("/:id", verificarToken, emprestimoController.excluir);
 module.exports = router;
