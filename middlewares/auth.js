@@ -1,6 +1,8 @@
 const jwt = require("jsonwebtoken");
 
-const SECRET = "biblioteca_gija_2026";
+require("dotenv").config();
+
+const SECRET = process.env.JWT_SECRET;
 
 function verificarToken(req, res, next) {
 

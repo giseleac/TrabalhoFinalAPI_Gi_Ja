@@ -1,3 +1,10 @@
+require("dotenv").config();
+
+const session = require("express-session");
+const passport = require("passport");
+
+require("./config/passport");
+
 const express = require("express");
 
 const app = express();
@@ -5,6 +12,18 @@ const app = express();
 const PORT = 8001;
 
 app.use(express.json());
+
+app.use(
+    session({
+        secret: process.env.JWT_SECRET,
+        resave: false,
+        saveUninitialized: false
+    })
+);
+
+app.use(passport.initialize());
+
+app.use(passport.session());
 
 const livroRoutes = require("./routes/livroRoutes");
 

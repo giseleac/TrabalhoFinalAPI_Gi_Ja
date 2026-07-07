@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 07/07/2026 às 00:46
+-- Tempo de geração: 07/07/2026 às 04:15
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -155,7 +155,7 @@ CREATE TABLE `usuarios` (
 
 INSERT INTO `usuarios` (`id_usuario`, `nome`, `email`, `senha`, `provider_oauth`, `oauth_id`) VALUES
 (1, 'Janina de Siqueira', 'janina@email.com', '$2b$10$JrL0S3dt7dWc2C40hnmz..8xdbSG6KjarBtHjLfgQh3B85QIIILdu', 'google', '123456789'),
-(2, 'Gisele Araújo', 'gisele@email.com', '$2b$10$kD8Kkexi4BX.EUFdtqPlFO8b0x92Lp700DzSWLplIZXP.KPSBSQBe', 'google', '987654321'),
+(2, 'Gisele Araújo', 'gicostamasanhudo@gmail.com', '$2b$10$kD8Kkexi4BX.EUFdtqPlFO8b0x92Lp700DzSWLplIZXP.KPSBSQBe', 'google', '987654321'),
 (3, 'Pedro Henrique', 'pedro@email.com', '$2b$10$34YWNDo9z90T1l4Y1.oRVOnn1ivslwFne931wQtlk1nhvCnNsEdPe', NULL, NULL),
 (4, 'Marcelo Silva', 'marcelo@email.com', '$2b$10$Yov/TQTOwbEl8vg7GAMnC.6OofaUEAeqp.EEqyL0bpbqFc21aEDEK', 'google', '897654321');
 
